@@ -31,7 +31,7 @@ client.on('ready', () => {
 
 
 
-const prefix = "*"
+const prefix = "$"
 client.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
@@ -240,7 +240,7 @@ client.on('message', message => {
 *pause : لأيقاف الاغنيه مؤقت :dove: 
 *resume : للأستئناف :part_alternation_mark: 
 **
-<@348586830305689600>`)
+<@403194852902305805>`)
    message.author.sendEmbed(embed)
    
    }
@@ -255,4 +255,4 @@ client.on('message', message => {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NTM5NjI3Mjk3OTk3ODQ4NTg2.D11BDA.VCqg_TEKnUwutv1YI39shcov9Og);
