@@ -255,4 +255,4 @@ client.on('message', message => {
 
 
 
-client.login(NTM5NjI3Mjk3OTk3ODQ4NTg2.D11BDA.VCqg_TEKnUwutv1YI39shcov9Og);
+client.login(process.env.BOT_TOKEN);
